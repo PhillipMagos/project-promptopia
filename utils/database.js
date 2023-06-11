@@ -17,7 +17,7 @@ export const connectToDB = async () => {
       useUnifiedTopology: true,
     })
 
-    isConnected = ture;
+    isConnected = true;
 
     console.log('MongoDB is connected')
   } catch (error) {
